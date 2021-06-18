@@ -18,6 +18,7 @@ const kebabSnap = '-snap.png';
 const dotSnap = '.snap.png';
 const dotDiff = '.diff.png';
 
+
 export const cachePath = path.join(
   pkgDir.sync(process.cwd()),
   'cypress',
